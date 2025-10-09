@@ -1,0 +1,14 @@
+/* carousel start */
+.carousel-content{
+    display: flex;
+}
+.carousel-item>h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* category section start */
+.display-4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
