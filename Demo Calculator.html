@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Calculator
+    </title>
+    <link rel="stylesheet" href="demo cal.css">
+    
+</head>
+
+<body>
+    <h1>
+        MY CALCULATOR
+    </h1>
+    <table border="1" cellpadding="15" cellspacing="20" width="400" height="600">
+
+            <!-- screen section start -->
+        <tr>
+            <th id="display" colspan="5" height="110">
+            </th>
+        </tr>
+            <!-- screen section end -->
+
+        
+            <!-- 1st row start -->
+        <tr>
+            <th class="number-button">
+                7
+            </th>
+            <th class="number-button">
+                8
+            </th>
+            <th class="number-button">
+                9
+            </th>
+            <th class="special-function">
+                <span style="color: red;">
+                    AC              
+                </span>
+            </th>
+            <th class="special-function" id="del">
+                del                    
+            </th>
+        </tr>
+            <!-- 1st row end -->
+
+
+            <!-- 2nd row start -->
+        <tr>
+            <th class="number-button">
+                4
+            </th>
+            <th class="number-button">
+                5
+            </th>
+            <th class="number-button">
+                6
+            </th>
+            <th class="operator-btn">
+                ×
+            </th>
+            <th class="operator-btn">
+                ÷
+            </th>
+        </tr>
+            <!-- 2nd row end -->
+
+
+            <!-- 3rd row start -->
+        <tr>
+            <th class="number-button">
+                1
+            </th>
+            <th class="number-button">
+                2
+            </th>
+            <th class="number-button">
+                3
+            </th>
+            <th class="operator-btn">
+                -
+            </th>
+            <th class="operator-btn" class="plus" rowspan="2">
+                +
+            </th>
+        </tr>
+            <!-- 3rd row end -->
+
+
+            <!-- 4th row start -->
+        <tr>
+            <th class="number-button">
+                0
+            </th>
+            <th class="operator-btn">
+                %
+            </th>
+            <th class="operator-btn">
+                .
+            </th>
+            <th onclick="calculate()" class="operator-btn" class="equal-to">
+                =
+            </th>
+        </tr>
+            <!-- 4th row end -->
+    </table>
+</body>
+
+<footer>
+    <script src="demo-calculator.js"></script>
+</footer>
+</html>
